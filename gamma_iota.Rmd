@@ -1,0 +1,300 @@
+---
+title: "Presentation Ninja"
+subtitle: "<br/>with xaringan"
+author: "Yihui Xie"
+date: "2016/12/12"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    yolo: FALSE
+    seal: FALSE
+    css: ["default", "extra.css"]
+    self_contained: FALSE
+    nature:
+      highlightStyle: github
+      highlightLines: TRUE
+      countIncrementalSlides: FALSE
+      ratio: '16:9'
+---
+class: center, middle, title-slide
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+<style>
+.remark-slide-number {
+  color: #ffff;
+  margin: 0px 0px 0px 0px;
+  padding: 20px;
+  font-family: "Droid Serif","Palatino Linotype","Book Antiqua",Palatino,"Microsoft YaHei","Songti SC",serif;
+}
+
+h1, h2, h3 {
+  font-family: "Yanone Kaffeesatz", Tahoma, Geneva, sans-serif;
+  font-weight: normal;
+}
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+
+</style>
+
+
+
+<img src = 'img/Temple_University_logo.png' height="50px">
+
+<h3 class="title">Gamma Iota Sigma </h1>
+<h3 class="title">Actuarial Science Career Development   </h2>
+
+<h1 class="title">Innovation </h1>
+<br>
+<h3 class="title">Rajesh Sahasrabuddhe</h3>
+
+<img src = 'img/logo.png' height="25px">
+
+---
+layout: true
+
+
+<footer>
+<img src = 'img/logo.png' height="15px" style = "position: absolute; right: 0px; bottom: 30px; left: 30px; text-align: center;">
+</footer>
+
+---
+
+# Innovation
+
+
+--
+
+<blockquote> 
+In the stormy and ever-changing world of global finance, insurance has remained a relatively placid backwater. With the notable exception of AIG, an American insurer bailed out by the taxpayer in 2008, the industry rode out the financial crisis largely unscathed. Now, however, insurers face unprecedented competitive pressure owing to technological change. This pressure is demanding not just adaptation, but transformation.
+
+... This easy life led to a complacent refusal to modernise. The industry is still astonishingly reliant on human labour. Underwriters look at data but plenty still rely on human judgment to evaluate risks and set premiums. Claims are often reviewed manually.
+</blockquote>
+The coming revolution in insurance<br>
+economist.com<br>
+Technological change and competition disrupt a complacent industry
+
+<blockquote> 
+Most insurers, though, do not have innovation in their DNA. Regulation has curbed incumbents' ability to experiment, while limited competition has given them no particular need to do so
+</blockquote>
+Digital disruption
+in insurance: Cutting through the noise<br>
+McKinsey
+
+
+--
+
+## Innovation In Insurance.
+
+--
+
+## Really?
+
+--
+
+<h2><strong><span class = "red">YES</span></strong><h2>
+
+---
+
+# Areas of Innovation
+
+--
+
+<ol>
+<li>Insurance Products</li>
+
+<li>Underwriting</li>
+
+<li>Marketing / Distribution</li>
+
+<li>Claims</li>
+
+<li>Actuarial</li>
+
+</ol>
+
+---
+
+# Insurance Products
+
+Source: AHEAD OF THE CURVE: UNDERSTANDING EMERGING RISKS, September 2014<br>
+Guy Carpenter<br>
+
+
+Emerging risks can be new and unforeseen risks whose potential for harm or loss is not fully known. In looking at the universe of emerging risks it becomes increasingly clear that a significant portion are by their nature not observable by traditional methods, even though their impact will no doubt at some point be felt. This report's goal is to contribute to a greater understanding of this insurance "dark matter." This improved understanding should lead to a view of emerging risks as an opportunity, rather than as a threat. Ultimately, greater knowledge will mean these are, by definition, no longer emerging risks, any more than aviation risks are now.
+
+This report examines emerging risks in a more analytical way in order to take practical steps to deal with them and create value for the (re)insurance industry. It places emerging risks in three categories: technical, crystalizing and aggravating.
+<ol>
+<li>Technological risks are those that are genuinely new, which emerge from new technologies and processes. This category would include genetically modified organisms, nanotechnology, E-cigarettes and driverless cars. This report takes an in depth look at the risks associated with cyber technology as an example of technological risk.</li>
+
+<li>Crystalizing risks are those that are not new, but whose manifestation and implications are emerging. In this context we are looking as much at emerging losses, as emerging risks. This category would include asbestos in the developing world and aluminium health risks. This report looks in depth at bodily injury compensation schemes as an example of crystalizing risk.</li>
+
+<li>Aggravating risks are relatively well known, but where their incidence and impact are becoming potentially more aggravated. This category would include climate change, pandemics, megacities and resistance to antibiotics. This report looks at terrorism developments as an example of an aggravating risk.</li>
+</ol>
+
+---
+
+# Insurance Products: Cyber Insurance
+
+The development of information technology and online connectivity has changed the way businesses operate. "Big data" and intricate information technology systems are vital to today's economy. As such, we look at risk associated with cyber technology as an example of the realm of emerging "technology risk."
+
+Cyber insurance has grown out of recognition that cyber-crime and data privacy are among the most concerning risks facing organizations today. With the increasing severity and frequency of cyber-attacks and data breaches worldwide, the demand for cyber-specific insurance is growing. Cyber-related risk to critical infrastructure and the overlap with cyber-terrorism are also issues that have come to the forefront.
+
+"Cyber" is perhaps a misleading term to describe the type of cover offered by this product. The term generally describes a number of different modules that provide cover around an organization's computer system, data and other multimedia activities. These covers are normally designed to include the following in some form or another:
+
+### Data privacy
+<ol>
+<li> Third party liability</li>
+<li> Liability from disclosure of confidential commercial and/or personal information (privacy)</li>
+<li> Liability from economic harm suffered by others from a failure of network security</li>
+</ol>
+
+---
+
+# Insurance Products: Cyber Insurance
+
+### Regulation breaches, fines, and penalties
+<ol>
+<li> Defense of regulatory action due to breach of privacy regulation</li>
+<li> Coverage for fines and penalties due to breach of privacy regulation</li>
+</ol>
+
+### Network business interruption
+<ol>
+<li> Income loss and expenses incurred during the period of interruption following a computer system failure or breach of network security</li>
+<li> Extensions can cover business interruption caused by the outage of a service provider, when caused by a computer failure or network security</li>
+</ol>
+
+### First party loss - data damage and cyber extortion
+<ol>
+<li> Destruction, corruption or theft of electronic information assets and/or data due to failure of the computer system or network</li>
+<li> Threats or extortion relating to release of confidential information or breach of computer security</li>
+</ol>
+
+### Crisis management and identity theft response
+<ol>
+<li> A number of costs associated with managing the aftermath of a privacy breach including, but not limited to: forensic investigation, legal costs, notification costs, call center costs, credit monitoring costs (where identification is stolen and a line of credit is obtained) and public relations costs</li>
+</ol>
+
+---
+
+# Underwriting
+
+
+<img src = "img/attune_primary_pos_2x1_2.jpg" height="100px">
+## Introducing Attune, a New Insurance Platform
+POSTED ON SEPTEMBER 28, 2016
+
+Two Sigma is excited to announce, in partnership with AIG and Hamilton Insurance Group, the launch of Attune, a data-driven online insurance platform serving small to medium-sized US businesses.
+
+We believe Attune has the potential to significantly improve how insurance is written, by applying cutting-edge technology and data science to meet the needs of smaller businesses-a very large but fragmented market. Attune will partner with insurance brokers, agents, and other intermediaries to streamline the process of pricing, selecting, and underwriting small commercial business insurance for small business owners.
+
+
+---
+
+# Underwriting
+
+
+<img src = "img/attune_primary_pos_2x1_2.jpg" height="100px">
+
+Attune works by leveraging third-party data and analytics models to generate a quote with limited information - sometimes only the business's name and address. Agents are still a part of the service flow, but without having to ask as many questions to generate a quote, the experience for the end customer is smoother and not as onerous as it has been in the past.
+
+"For small-commercial business in particular, there's been this tension between effective underwriting and ease of doing business," explains Ed Pulkstenis, EVP of underwriting at Hamilton USA. "The traditional view is that to do better underwriting, you have to ask more questions, validate more information, and do more back and forth. Attune says that is a false choice."
+
+<img src = 'img/digital-insurance-logo.png' height="50px">
+
+
+---
+
+# Careers at Attune
+
+
+<p>Two Sigma's mission is to discover value in the world's data. In this particular role you will be working with data in the insurance space, a relatively new area of interest for us. Insurance has centuries of history but is undergoing rapid change, and we believe there are many opportunities for technical innovation and creative solutions. You will be joining a small team with a startup feel, with a broad range of responsibilities and possible directions.</p>
+
+<strong>You will be expected to:</strong>
+<ol>
+  <li>Work with large, possibly unstructured datasets;</li>
+  <li>Carry out independent investigations/research studies and produce reports and visualizations to communicate your results;</li>
+  <li>Generate statistical models for a variety of phenomena;</li><li>Interact with insurance industry professionals to understand their business and propose technical/statistical approaches;</li>
+  <li>Write libraries and research tools, developing and maintaining a research infrastructure to accelerate future results;</li>
+  <li>Automate repetitive analyses and reports.</li>
+</ol>
+
+<h2><strong><span class = "red">Sound Familiar?</span></strong><h2>
+
+---
+
+# Careers at Attune
+
+<strong>Requirements Include:</strong>
+<ol>
+  <li>A strong academic record with at least one degree in a technical discipline.</li>
+  <li>Solid knowledge of Computer Science and Statistics.</li>
+  <li>Experience with data analysis tools (R, numpy/pandas/scikit-learn) and SQL.</li>
+  <li>Advanced programming skills in at least one of Python or Java.</li>
+  <li>Experience producing research reports and (ideally) predictive models.</li>
+  <li>Good communication skills, both written and verbal.</li>
+  <li>Interest in working in a fast-paced, frequently-changing environment.</li>
+  <li>Insurance industry experience would be a plus.</li>
+</ol>
+
+<h2><strong><span class = "red">Are you prepared?</span></strong><h2>
+---
+
+# Marketing / Distribution
+
+--
+
+Traditional insurance distribution models involved brokers and agents as intermediaries between the insurer and insured.
+
+--
+
+Innovations in insurance distributions largely focus of direct-to-consumer sales on-line via mobile platforms.
+
+---
+
+# Marketing / Distribution
+
+From quote to claim, Esurance is working to help you make smarter, more efficient choices with your insurance. Using <span class="red">state-of-the-art technology</span>, we offer a <span class="red">seamless online and mobile experience</span> along with intuitive tools that help take the <span class="red">hassle</spam> out of insurance.
+
+<span class="red">Backed by Allstate</span>, Esurance is a multiline insurance company with an A+ financial rating*, offering vehicle and property coverage around the country. And we're still growing!
+
+<img src = "img/logo-esu-as-big.jpg" height = '100px'>
+
+
+---
+
+# Claims
+
+<img src = "img/property-casualty-360-logo-600.png" height = '75px'>
+
+<a href="http://www.propertycasualty360.com/2016/08/31/in-claims-all-roads-lead-to-innovation">Property Casualty360<sup>o</sup></a>
+
+<ol>
+  <li><b>Restoration</b> Adjusters are benefiting from technologies that allow them to do their jobs better and more safely. Drones and aerial imaging allow adjusters to assess a dangerous situation from a safe distance, as in the case of a bridge that has collapsed during a CAT event. Assistive technologies like Google Glass give adjusters a novel way to collaborate: less-experienced field adjusters can be sent on-site with the ability to collaborate remotely with a more experienced adjuster who can see what they see and provide guidance. Junior staff can learn on the job and senior staff are spared excessive travel, allowing them to work with many different adjusters in many different locations simultaneously.</li>
+  <li><b>Mitigation</b> IoT technology has especially high potential in this area. Smart IoT devices of all shapes and sizes are enabling early detection of damage or dangerous situations. One recent example is leakSMART, a leak detection device that alerts the policyholder and the insurance company when a leak is detected to stop water damage early. The Nest Protect smoke and carbon monoxide alarm works on the same principle. Similar devices exist for imminently dangerous situations, such as an unattended stove in an empty house.</li>
+  <li><b>Prevention</b> Technology-assisted safety is a real opportunity for claims. Autonomous vehicles have been widely discussed, but that is primarily in the area of passenger vehicles. Autonomous commercial vehicles hold just as much potential to transform the transportation industry — and possibly on a shorter timeline. Driverless trucks are now in on-road testing in Europe.</li>
+
+</ol>
+
+---
+
+# Actuarial
+
+<br>
+<br>
+<big>
+  ? ? ? ?
+</big>

@@ -1,0 +1,136 @@
+---
+title: "Presentation Ninja"
+subtitle: "<br/>with xaringan"
+author: "Yihui Xie"
+date: "2016/12/12"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    yolo: FALSE
+    seal: FALSE
+    css: ["default", "extra.css"]
+    self_contained: FALSE
+    nature:
+      highlightStyle: github
+      highlightLines: TRUE
+      countIncrementalSlides: FALSE
+      ratio: '16:9'
+---
+class: center, middle, title-slide
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+<style>
+.remark-slide-number {
+  color: #ffff;
+  margin: 0px 0px 0px 0px;
+  padding: 20px;
+  font-family: "Droid Serif","Palatino Linotype","Book Antiqua",Palatino,"Microsoft YaHei","Songti SC",serif;
+}
+
+h1, h2, h3 {
+  font-family: "Yanone Kaffeesatz", Tahoma, Geneva, sans-serif;
+  font-weight: normal;
+}
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+
+</style>
+
+
+
+<h3 class="title">marketing areas/activities outside of Marsh</h1>
+<h1 class="title">Innovation </h1>
+<br>
+<h3 class="title">Rajesh Sahasrabuddhe</h3>
+
+<img src = 'img/logo.png' height="25px">
+
+---
+layout: true
+
+
+<footer>
+<img src = 'img/logo.png' height="15px" style = "position: absolute; right: 0px; bottom: 30px; left: 30px; text-align: center;">
+</footer>
+
+---
+
+# Acknowlegement
+
+
+--
+Content Courtesy of Introduction to Marketing by University of Pennsylvania
+https://www.coursera.org/learn/wharton-marketing/home/welcome
+
+---
+
+# Fundamentals
+
+<ol>
+  <li>What is Marketing</li>
+  <ol>
+    <li>The stduy of markets</li>
+    <li>The interaction between buyer and seller</li>
+    <li>Mraketing differs based on the type of market
+  </ol>
+  <li>Buyer's Market</li>
+  <ol>
+    <li>Identify customer needs</li>
+    <li>Deliver product that meets the needs of the customer</li>
+    <li class = "red">Customer Focused Marketing</li>
+    <li>Every customer has different needs</li>
+    <li>Marketing needs to be segmented</li>
+    <li>Sources of profit: cross-selling, loyalty, 
+  </ol>
+
+---
+
+# Fundamentals
+
+<ol>
+  <li>Seller's Market</li>
+  <ol>
+    <li>The seller has the product</li>
+    <li>The buyer must come to the seller to get the product</li>
+    <li class = "red">Product Focused Marketing</li>
+    <li>Source of profit: lower cost, market to everyone; sell to everyone</li>
+  </ol>
+</ol>
+
+---
+# The Four P's of Marketing
+
+<ol>
+  <li>Product - What the seller puts into the exchange</li>
+  <li>Place - The way that the seller delivers product to the customer</li>
+  <li>Promotion - Communication of Benefit</li>
+  <li>Price - What the buyer puts into the exchange</li>
+</ol>
+
+---
+# Market Driven Principles
+
+<ol>
+  <li>Know your market</li>
+  <li>Customer's have the final say</li>
+  <ol>
+    <li>Operational (price, delivery, service reliability)</li>
+    <li>Features and Design</li>
+    <li>Meeting Customer Needs></li>
+  </ol>
+  <li>Commit to being first in the markets that you serve</li>
+  <li>Guarantee customer satisfaction</li>
+</ol>
